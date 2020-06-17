@@ -4,10 +4,10 @@ As part of my entertainment during COVID-19 lockdown, I set out myself to code a
 devices and output json format. 
 
 # Network_Neo4J_DB
-I incrementally added specific OIDs supports to extend the functionality of it by exposing an API to get this information to end up
-packing this as a docker containerized service. Once I was able to manage snmp 2 json information, I included a database to store and 
-graph this information. This way I managed to correlate information across network devices like ARP tables, IPs, Network to end up having 
-a graph database of my entire network. This approach simplifies and expose many network miss configurations and path related problems.  It 
+I incrementally added specific OIDs supports, exposed an API to get this information to wrap things up by packing it in a docker containerized app. The Json output may then be consumed through the api into a database to store and  graph this information. This information is then correlated across network devices, visualizing it as a relationship graph between ARP tables, IPs, Network. You will End up having 
+a graph database of your entire network. 
+
+This simplifies and exposes many network miss configurations, path related problems as well as security risk.  It 
 also enables to have a real-time network repository as well general information about IP usage, Vlan numbering, etc.
 
 #OID
