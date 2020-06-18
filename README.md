@@ -3,7 +3,7 @@ Extract snmp raw data from any net element and get a json formatted output, thro
 As part of my entertainment during COVID-19 lockdown, I set out myself to code a POC application that would get SNMP raw data from network
 devices and output json format. 
 
-# Network_Neo4J_DB
+# Network_Neo4J_DB 
 I incrementally added specific OIDs supports, exposed an API to get this information to wrap things up by packing it in a docker containerized app. The Json output may then be consumed through the api into a database to store and  graph this information. This information is then correlated across network devices, visualizing it as a relationship graph between ARP tables, IPs, Network. You will End up having 
 a graph database of your entire network. 
 
@@ -18,3 +18,5 @@ also enables to have a real-time network repository as well general information 
     "Rfc1213Mib"
     "Bgp4Mib"
     "OspfMib"
+    
+Get Neo4J_DB https://neo4j.com/developer/python/
