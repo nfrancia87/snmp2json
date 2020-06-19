@@ -10,6 +10,7 @@ from urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
 #Line to connect to a Neo4j
+#Make sure to modify the codeline both to secure it and passing the right parameters 
 graph = Graph('/db/data/', host='ADD_DB_IP_NETWORK', username='neo4j', password='neo4j')
 matcher = NodeMatcher(graph)
 
