@@ -20,7 +20,7 @@ also enables to have a real-time network repository as well general information 
     "OspfMib"
     
 Get Neo4J_DB https://neo4j.com/developer/python/
-Setup your VirtualEnv so you won't affect other proyects you might have. https://help.dreamhost.com/hc/es/articles/115000695551-Instalar-y-usar-virtualenv-con-Python-3
+Setup your VirtualEnv so you won't affect other projects you might have. https://help.dreamhost.com/hc/es/articles/115000695551-Instalar-y-usar-virtualenv-con-Python-3
 Get Docker-Compose, from your "venv" run "pip install docker-compose"
 Then run it "docker-compose up --build -d"
 Test it from any browser!
