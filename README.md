@@ -6,9 +6,9 @@ devices and output a json format data stucture.
 # Network_Neo4J_DB 
 It has built in support for specific OIDs supports, an API to get this information and docker containered version for you to deploy. 
 The Json output may then be consumed through the api into a database to store and  graph this information. 
-The information is then correlated across network devices. Thus visualizing it as a graph of rrelationships between ARP neighbors, IPs, Network, interfaces, etc.
+The information is then correlated across network devices. Thus visualizing it as a graph of relationships between ARP neighbors, IPs, Network, interfaces, etc.
 
-You will End up having a graph database of your entire network with inventory, current operational and configurtion states. 
+You will End up having a graph database of your entire network with inventory, current operational and configuration states. 
 
 This simplifies and exposes many network miss configurations, path related problems as well as security risk.  It 
 also enables to have a real-time network repository as well general information about IP usage, Vlan numbering, etc.
