@@ -4,7 +4,7 @@ As part of my entertainment during COVID-19 lockdown, I set out myself to code a
 devices and output a json format data stucture. 
 
 # Network_Neo4J_DB 
-It has built in support for specific OIDs supports, an API to get this information and docker container version for you to deploy. 
+It has built in support for specific OIDs supports, an API to get this information and docker containered version for you to deploy. 
 The Json output may then be consumed through the api into a database to store and  graph this information. 
 The information is then correlated across network devices. Thus visualizing it as a graph of rrelationships between ARP neighbors, IPs, Network, interfaces, etc.
 
