@@ -1,7 +1,7 @@
 # snmp2json 
 Extract snmp raw data from any net element and get a json formatted output, through a flask exposed API.  
 As part of my entertainment during COVID-19 lockdown, I set out myself to code a POC application that would get SNMP raw data from network
-devices and output a json format data stucture. 
+devices and output a json format data structure. 
 
 # Network_Neo4J_DB 
 It has built in support for specific OIDs supports, an API to get this information and docker containered version for you to deploy. 
